@@ -202,3 +202,8 @@ footer p { margin: 0 0 4px; }
   .concerns div { grid-template-columns: 1fr; gap: 2px; }
   details p { margin-left: 0; }
 }
+
+/* Unterabschnitte in WHY, HOW, WHAT */
+h3.sub { font-size: 1.2rem; margin: 32px 0 10px; color: var(--red); }
+.timeline h3 a { color: inherit; text-decoration: none; }
+.timeline h3 a:hover { color: var(--red); }
